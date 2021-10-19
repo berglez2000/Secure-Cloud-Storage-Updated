@@ -1,0 +1,50 @@
+h4 {
+  padding-bottom: 10px;
+}
+
+.add-bucket {
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-control {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.form-control:first-child {
+  padding-right: 15px;
+}
+
+.form-control:nth-child(2) {
+  padding-left: 15px;
+}
+
+.form-control input,
+select,
+option {
+  padding: 5px 10px;
+  outline: none;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn:active {
+  transform: scale(0.995);
+}

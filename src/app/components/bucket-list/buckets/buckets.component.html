@@ -1,0 +1,22 @@
+<div class="buckets">
+  <div class="upper">
+    <h4>All Buckets</h4>
+    <app-button
+      text="{{ showAddBucket ? 'Close' : 'Create' }} New Bucket"
+      (onBtnClick)="toggleAddBucket()"
+    ></app-button>
+  </div>
+  <div class="container">
+    <div class="head">
+      <p class="name">Name</p>
+      <p class="location">Location</p>
+    </div>
+    <div class="bucket_container">
+      <app-bucket
+        *ngFor="let bucket of buckets"
+        [bucket]="bucket"
+        (onDeleteBucket)="deleteBucket(bucket)"
+      ></app-bucket>
+    </div>
+  </div>
+</div>

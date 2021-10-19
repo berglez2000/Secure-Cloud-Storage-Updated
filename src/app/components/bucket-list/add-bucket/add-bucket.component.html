@@ -1,0 +1,17 @@
+<h4>Create New Bucket</h4>
+<div class="add-bucket">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-control">
+      <label for="name">Bucket Name*</label>
+      <input type="text" name="name" [(ngModel)]="name" id="name" />
+    </div>
+    <div class="form-control">
+      <label for="location">Bucket Name*</label>
+      <select name="location" [(ngModel)]="location" id="location">
+        <option value="Kranj">Kranj</option>
+        <option value="Ljubljana">Ljubljana</option>
+      </select>
+    </div>
+    <input type="submit" class="btn" value="Create Bucket" />
+  </form>
+</div>

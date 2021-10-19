@@ -1,0 +1,36 @@
+.top,
+.file {
+  display: flex;
+  padding: 5px 0;
+}
+
+.file {
+  border-bottom: 1px solid rgb(129, 129, 129);
+}
+
+.top {
+  background: lightgray;
+}
+
+.name {
+  width: 50%;
+}
+
+.last_modified {
+  width: 20%;
+}
+
+.size {
+  width: 20%;
+}
+
+.icon,
+.trash {
+  width: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.trash {
+  cursor: pointer;
+}

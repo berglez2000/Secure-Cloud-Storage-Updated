@@ -1,0 +1,23 @@
+.bucket {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+.bucket:hover,
+.bucket.active {
+  background-color: #b2fefa;
+  transition: all 0.3s ease;
+}
+
+p.name {
+  width: 60%;
+}
+
+p.location {
+  width: 40%;
+}

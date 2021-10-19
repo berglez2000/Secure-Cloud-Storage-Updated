@@ -1,0 +1,11 @@
+<div class="file">
+  <div class="icon">
+    <fa-icon [icon]="faFileAlt"></fa-icon>
+  </div>
+  <p class="name">{{ file.filename }}</p>
+  <p class="last_modified">{{ file.last_modified }}</p>
+  <p class="size">{{ file.size }}</p>
+  <div class="trash" (click)="onClick()">
+    <fa-icon [icon]="faTrash"></fa-icon>
+  </div>
+</div>

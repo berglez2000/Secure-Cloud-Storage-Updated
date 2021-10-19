@@ -1,0 +1,12 @@
+<div
+  class="bucket {{ showBucketStorage ? 'active' : '' }}"
+  (dblclick)="onDoubleClick()"
+>
+  <p class="name">{{ bucket.name }}</p>
+  <p class="location">{{ bucket.location }}</p>
+</div>
+<app-bucket-storage
+  *ngIf="showBucketStorage"
+  [bucket]="bucket"
+  (deleteBucket)="deleteBucket()"
+></app-bucket-storage>

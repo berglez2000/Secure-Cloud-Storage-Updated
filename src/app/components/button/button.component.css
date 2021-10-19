@@ -1,0 +1,13 @@
+.btn {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn:active {
+  transform: scale(0.995);
+}

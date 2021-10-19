@@ -1,0 +1,8 @@
+<app-add-bucket
+  (onAddBucket)="addBucket($event)"
+  *ngIf="showAddBucket"
+></app-add-bucket>
+<app-buckets
+  [buckets]="buckets"
+  (onDeleteBucket)="deleteBucket($event)"
+></app-buckets>

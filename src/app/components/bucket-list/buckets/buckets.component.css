@@ -1,0 +1,37 @@
+.buckets {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.head {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.head p.name {
+  width: 60%;
+}
+
+.head p.location {
+  width: 40%;
+}
+
+.bucket_container {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
